@@ -7,6 +7,8 @@ if [ -z "$1" ]; then
   exit 1
 fi
 
+echo "Repo: $1"
+
 # Navigate to the specified Git repository path
 repo_path="$1"
 if [ ! -d "$repo_path/.git" ]; then
