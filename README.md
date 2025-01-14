@@ -1,4 +1,4 @@
-# ChaGPT clipboard helper
+# ChaGPT local code copier
 
 This script extracts Python file content from a local Git repository, copies it to the clipboard, and pastes it into a ChatGPT prompt.
 
